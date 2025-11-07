@@ -29,7 +29,7 @@ def main():
         "Salary": ["70000", "80000", "None", "120000", "90000", "None", "61000", "73000"],
         "Experience": ["5", "8", "2", "10", "9", "None", "3", "7"]
     }
-    demo_data = pd.DataFrame(data1)
+    demo_data = pd.DataFrame(demo_data_dict)
 
 
     job_description_dict = {
